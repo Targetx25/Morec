@@ -1,4 +1,5 @@
-# Morec
+# Morec 
+<h2>On Hold</h2>
 Morec- A Simple Movie Recommender Made with CSS and HTML only. Future updates will include vast improvements with java script and many more things.
 
 I haven't completed all part of this project yet and this project is currently only intiated i would say i guess and i am going to update and make vast major improvements as i learn more skills and technologies.So i hope you all will take a good deep dive of patience with me and we will build it toogether : )
