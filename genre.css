@@ -37,6 +37,10 @@
     border-color: #092559;
   }
 
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
   .icon{
     color: #EBDDCB;
     font-size: large;
@@ -97,14 +101,15 @@ img:hover{
   padding-bottom: 100px;
 }
 
-#cards >div {
-  position: relative;
-  display: inline-block;
-}
+
 
 img {
-
+  
   display: block;
+}
+
+#cards{
+  padding-bottom: 20px;
 }
 
 .text {
@@ -145,8 +150,32 @@ img {
   background-color: #092559;
 }
 
+.button{
+    text-align: center;
+    border: none;
+    background-color: #F22824;
+    color: #EBDDCB;
+    font-weight: bolder;
+    height: 50px;
+    width: 405px;
+    border-radius: 3%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+  
+}
+
+.button:hover{
+  background-color: #1347A2;
+  color: #EBDDCB;
+}
+
 @media (max-width:913px){
   .nav-container{
+    width: fit-content;
     display: flex;
     flex-direction: column;
     gap:5px;
@@ -154,11 +183,26 @@ img {
   }
 
   .whole{
-    min-width: 1127px;
+    max-width: 916px;
   }
   section{
-    min-width: 1127px;
+    max-width: 916px;
+  }
 
+  #cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left{
+    text-align: center;
+    padding: 0;
+  }
+
+  div > img{
+   
+    width: fit-content;
+    height:350px;
   }
   
   #l-cont{
@@ -176,5 +220,45 @@ img {
     margin: 0px;
     font-family: 'Lato', sans-serif;
     padding-top:40px;
+  }
+  .button{
+  
+    border: none;
+    background-color: #F22824;
+    color: #EBDDCB;
+    font-weight: bolder;
+    height: 50px;
+    width: 120px;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    margin-top: 100px;
+    margin-left: 10px;
+  }
+
+  button:hover{
+    background-color: #1347A2;
+    color: #EBDDCB;
+  }
+
+  .left{
+    display: inline-flex;
+    gap:10px;
+    margin-right: 5px;
+  }
+
+  .right{
+    padding: 0;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    gap:20px;
+  }
+
+  .left > button{
+    margin-right: 10px;
   }
 }
