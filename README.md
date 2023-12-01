@@ -6,10 +6,10 @@ I haven't completed all part of this project yet and this project is currently o
 Do Star this repo and you guys can ofc contribute to our first open source movie recommender..
 
 Credits -
-My Teacher and guru - Angela Yu
-Web Development Discord communities - (They motivated me a lot..Thanks Guys)
-Imdb , rotten tomatoes & animenews for using their links and resources
-And Ofc myself ig? Maybe a little bit.
+My Teacher and guru - Angela Yu<br/>
+Web Development Discord communities - (They motivated me a lot..Thanks Guys)<br/>
+Imdb , rotten tomatoes & animenews for using their links and resources<br/>
+And Ofc myself ig? Maybe a little bit.<br/>
 
 
 PS
