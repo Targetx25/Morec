@@ -157,6 +157,7 @@
 #menu{
   display: flex;
   flex-direction: column;
+  align-items: start;
 }
 
 #i-f>p{
@@ -305,7 +306,12 @@
 
  #menu > div{
   font-family: 'Lato', sans-serif;
-  padding-left: 90px;
+  padding-left: 20px;
+ }
+
+ #menu > a{
+  padding-left: 40px;
+  font-family: 'Lato', sans-serif;
  }
   
  body {
